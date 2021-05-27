@@ -64,7 +64,16 @@ def enter_player_names():
 
     return players_dict, pls_number
   
-  
+'''
+Once the players' names have been collected its time to start the game. Taking parameters as number of players and their names. 
+The function will display a continent and the countries that they will learning about. Immediatly, the players will see at 
+least 3 facts related to the countries. There will be 10 questions per player displayed to them in turns.
+Each player will have 30 seconds to answer, after that time the answer will be considered as incorrect.
+'''
+#The following function will receive a dictionary with the names of each player and the number of players
+def showing_continent(players_dict, pls_number):
+    
+
  #main function
 def main():
     welcome_message()
